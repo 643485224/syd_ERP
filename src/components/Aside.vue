@@ -141,13 +141,13 @@ export default {
       //         children: [],
       //       },
       //       {
-      //         name: "员工资源申请",
-      //         iconSvg: require("../assets/images/aside/YGZYSQ.svg"),
-      //         iconSvgAction: require("../assets/images/aside/YGZYSQ-Action.svg"),
-      //         state: 2,
-      //         path: "/employeeApplication",
-      //         children: [],
-      //        },
+      //         name: "员工资源申请",
+      //         iconSvg: require("../assets/images/aside/YGZYSQ.svg"),
+      //         iconSvgAction: require("../assets/images/aside/YGZYSQ-Action.svg"),
+      //         state: 2,
+      //         path: "/employeeApplication",
+      //         children: [],
+      //       },
       //       {
       //         name: "资产管理",
       //         iconSvg: require("../assets/images/aside/ZCGL.svg"),
@@ -346,6 +346,11 @@ export default {
     };
   },
   mounted() {
+    // this.$store.commit("$uStore", {
+    //   name: "vuex_menu",
+    //   value: this.vuex_menu,
+    // });
+    // that.menuDealWith();
     this.vuex_menu = [];
     var that = this;
     var myVar = setInterval(function () {
