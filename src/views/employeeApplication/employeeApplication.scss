@@ -1,0 +1,41 @@
+::v-deep .content-tabs {
+    .el-tabs__content {
+        width: 1570px;
+        overflow: auto;
+    }
+
+    .el-tabs__nav-scroll {
+        background-color: #fff;
+        padding: 0px 0px;
+    }
+
+    .el-tabs__nav {
+        margin: 0px 30px 0px 0px;
+        /* 使用rpx没有效果 */
+    }
+
+    .el-tabs__item {
+        font-size: 20px;
+    }
+
+    .el-tabs--top .el-tabs__item.is-top:last-child {
+        padding-right: 20px;
+    }
+
+    /*悬浮样式*/
+    //     .el-tabs__item:hover {
+    //         // color: #e1251b;
+    //     }
+
+    //     /*选中样式*/
+    //     .el-tabs__item.is-active {
+    //         // color: #fff;
+    //         // font-weight: bold;
+    //         // background-color: #e1251b;
+    //     }
+
+    //     /*隐藏tab下面的一横*/
+    //     .el-tabs__active-bar {
+    //         // display: none;
+    //     }
+}

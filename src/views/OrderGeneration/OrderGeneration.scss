@@ -1,0 +1,325 @@
+::v-deep .content-tabs {
+    width: 1550px;
+
+    .el-tabs__content {
+        width: 1550px;
+        overflow: auto;
+    }
+
+    .el-tabs__nav-scroll {
+        background-color: #fff;
+        padding: 0px 0px;
+    }
+
+    .el-tabs__nav {
+        margin: 0px 30px 0px 0px;
+        /* 使用rpx没有效果 */
+    }
+
+    .el-tabs__item {
+        font-size: 20px;
+    }
+
+    .el-tabs--top .el-tabs__item.is-top:last-child {
+        padding-right: 20px;
+    }
+
+    /*悬浮样式*/
+    //     .el-tabs__item:hover {
+    //         // color: #e1251b;
+    //     }
+
+    //     /*选中样式*/
+    //     .el-tabs__item.is-active {
+    //         // color: #fff;
+    //         // font-weight: bold;
+    //         // background-color: #e1251b;
+    //     }
+
+    //     /*隐藏tab下面的一横*/
+    //     .el-tabs__active-bar {
+    //         // display: none;
+    //     }
+}
+
+// 条件
+::v-deep.content-condition {
+    display: flex;
+
+    .condition-item {
+        display: flex;
+        align-items: center;
+        margin-right: 80px;
+
+        // 输入框
+        .el-input {
+            height: 40px;
+            width: 320px;
+        }
+
+        // 日期
+        .formSelectTime {
+            height: 40px;
+            width: 320px;
+
+            .el-range-separator {
+                line-height: 30px;
+            }
+        }
+    }
+
+}
+
+.content-condition:nth-child(2) {
+    margin-top: 10px;
+}
+
+.content-button {
+    display: flex;
+    margin-top: 10px;
+
+    .buttonOne {
+        background: #1dd19b;
+        border: 1px solid #1dd19b;
+        margin-right: 200px;
+    }
+
+    .buttonTwo {
+        background: #ffa728;
+        border: 1px solid #ffa728;
+        margin-right: 200px;
+    }
+
+    .buttonThree {
+        background: #109af9;
+        border: 1px solid #109af9;
+    }
+
+    .buttonFour {
+        background: #f05c27;
+        border: 1px solid #f05c27;
+        margin-right: 50px;
+    }
+
+    .buttonFive {
+        background: #2400ff;
+        border: 1px solid #2400ff;
+    }
+
+    .Hover:hover {
+        transform: scale(1.04);
+    }
+}
+
+// 表格内部按钮
+.tableButtonContent {
+    display: flex;
+    justify-content: center;
+
+    .tableButton:hover {
+        transform: scale(1.04);
+    }
+
+    .tableButtonOne {
+        width: 80px;
+        height: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #ffa728;
+        border: #ffa728;
+        border-radius: 6px;
+    }
+
+    .tableButtonTwo {
+        width: 80px;
+        height: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #109af9;
+        border: #109af9;
+        border-radius: 6px;
+    }
+}
+
+.inputCheckBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // text-align: center;
+    input {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+
+// 订单归档
+// 左侧审核单据列表
+.elTabThree {
+    display: flex;
+
+    .elTabThreeBodyLeft {
+        width: 300px;
+        height: 800px;
+        overflow: overlay;
+        border-right: 0.5px solid rgba(0, 0, 0, 0.45);
+
+        .elTabThreeBodyLeft_title {
+            width: 300px;
+            height: 26px;
+            font-family: "Microsoft YaHei";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            color: rgba(0, 0, 0, 0.85);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0px;
+        }
+
+        .itemList {
+            width: 300px;
+            padding: 10px 20px;
+        }
+
+        .itemList:active {
+            background: #109af9;
+            color: #ffffff;
+        }
+
+        .itemList:focus {
+            background: #109af9;
+            color: #ffffff;
+        }
+    }
+
+
+    .elTabThreeBodyRight {
+        width: 1248px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+// 默认蓝底白字盒子
+.blueBox {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #109AF9;
+    font-family: 'Microsoft YaHei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.blueItemBox {
+    width: 116px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #109AF9;
+    font-family: 'Microsoft YaHei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+// 默认白底黑字盒子
+.greyItemBox {
+    width: 116px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    background: #ffffff;
+    font-family: 'Microsoft YaHei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span:nth-child(2) {
+        color: #109AF9;
+    }
+}
+
+.rowBox {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.colBox {
+    width: 150px;
+    height: 666px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colBoxItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// 右箭头
+.rightBoxImg {
+    display: inline-block;
+    width: 18px;
+    height: 24px;
+    background: url('./image/rightBoxImg.svg');
+}
+
+// 下箭头
+.bottomBoxImg {
+    display: inline-block;
+    width: 22px;
+    height: 17px;
+    background: url('./image/bottomBoxImg.svg');
+}
+
+// 横图片
+.rowBoxImg {
+    display: inline-block;
+    width: 1012px;
+    height: 3px;
+    background: url('./image/rowBoxImg.svg');
+}
+
+// 竖图片
+.colBoxImg {
+    display: inline-block;
+    width: 3px;
+    height: 12px;
+    background: url('./image/colBoxImg.svg');
+}
+
+.bordertops {
+    width: calc(100% - 150px);
+    height: 3px;
+    background: #109AF9;
+    position: absolute;
+    top: 0px;
+    right: 74px;
+}

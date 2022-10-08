@@ -1,0 +1,185 @@
+::v-deep .content-tabs {
+    width: 1550px;
+
+    .el-tabs__content {
+        width: 1550px;
+        overflow: auto;
+    }
+
+    .el-tabs__nav-scroll {
+        background-color: #fff;
+        padding: 0px 0px;
+    }
+
+    .el-tabs__nav {
+        margin: 0px 30px 0px 0px;
+        /* 使用rpx没有效果 */
+    }
+
+    .el-tabs__item {
+        font-size: 20px;
+    }
+
+    .el-tabs--top .el-tabs__item.is-top:last-child {
+        padding-right: 20px;
+    }
+
+    /*悬浮样式*/
+    //     .el-tabs__item:hover {
+    //         // color: #e1251b;
+    //     }
+
+    //     /*选中样式*/
+    //     .el-tabs__item.is-active {
+    //         // color: #fff;
+    //         // font-weight: bold;
+    //         // background-color: #e1251b;
+    //     }
+
+    //     /*隐藏tab下面的一横*/
+    //     .el-tabs__active-bar {
+    //         // display: none;
+    //     }
+}
+
+// icon组
+.content-icon {
+    display: flex;
+    padding: 0px 0px 0px 140px;
+    margin-bottom: 10px;
+
+    .content-icon-item {
+        height: 48px;
+        padding: 0px 20px;
+        border-width: 0px 0.5px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.45);
+        font-family: 'Microsoft YaHei';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 240px 0px 0px;
+
+        .content-icon-item-img {
+            margin-right: 20px;
+        }
+
+        .content-icon-item-text {
+            display: flex;
+
+            .textTitle {
+                height: 48px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0px 20px;
+            }
+        }
+
+        .content-icon-item-textTitle {
+
+            height: 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 20px;
+        }
+    }
+
+    // 最后一个消除margin
+    .content-icon-item:nth-last-child(1) {
+        margin: 0px;
+    }
+
+}
+
+// 按钮组
+.content-button {
+    display: flex;
+    margin-top: 10px;
+
+    .buttonOne {
+        background: #1dd19b;
+        border: 1px solid #1dd19b;
+        margin-right: 200px;
+    }
+
+    .buttonTwo {
+        background: #ffa728;
+        border: 1px solid #ffa728;
+        margin-right: 200px;
+    }
+
+    .buttonThree {
+        background: #109af9;
+        border: 1px solid #109af9;
+    }
+
+    .buttonFour {
+        background: #f05c27;
+        border: 1px solid #f05c27;
+        margin-right: 50px;
+    }
+
+    .buttonFive {
+        background: #2400ff;
+        border: 1px solid #2400ff;
+    }
+
+    .Hover:hover {
+        transform: scale(1.04);
+    }
+}
+
+// 表格内部按钮
+.tableButtonContent {
+    display: flex;
+    justify-content: center;
+
+    .tableButton:hover {
+        transform: scale(1.04);
+    }
+
+    .tableButtonOne {
+        width: 80px;
+        height: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #ffa728;
+        border: #ffa728;
+        border-radius: 6px;
+    }
+
+    .tableButtonTwo {
+        width: 80px;
+        height: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #109af9;
+        border: #109af9;
+        border-radius: 6px;
+    }
+}
+
+.inputCheckBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // text-align: center;
+    input {
+        width: 24px;
+        height: 24px;
+    }
+}

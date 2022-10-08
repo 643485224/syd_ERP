@@ -1,0 +1,120 @@
+.content_button {
+    display: flex;
+
+    .buttonOne {
+        background: #1DD19B;
+        border-color: #1DD19B;
+    }
+
+    .buttonTwo {
+        background: #FFA728;
+        border-color: #FFA728;
+        margin-left: 200px;
+    }
+
+    .buttonThree {
+        background: #109AF9;
+        border-color: #109AF9;
+        margin-left: 200px;
+    }
+
+    .buttonFour {
+        background: #2400FF;
+        border-color: #2400FF;
+        margin-left: 200px;
+    }
+
+    .buttonFive {
+        background: #F05C27;
+        border-color: #F05C27;
+        margin-left: 200px;
+    }
+
+
+
+
+}
+
+.centent_table {
+
+    // 表头上的小标题
+    .spanList {
+        margin-left: 90px;
+
+        .spanOne {
+            color: #1DD19B;
+        }
+
+        .spanTwo {
+            color: #FFA728;
+            margin-left: 30px;
+        }
+
+        .spanThree {
+            color: #109AF9;
+            margin-left: 30px;
+        }
+
+        .spanFour {
+            color: #F05C27;
+        }
+
+        .spanFive {
+            color: #FF3366;
+            margin-left: 30px;
+
+        }
+    }
+
+    // 根据状态文字展示不同颜色
+    .spanChange {
+
+        // 待审核
+        .spanYX {
+            color: #1DD19B;
+        }
+
+        .spanSX {
+            color: #FFA728;
+        }
+
+
+
+
+
+    }
+
+    // 表格内部按钮
+    .tableButtonContent {
+        display: flex;
+        justify-content: center;
+
+        .tableButton:hover {
+            transform: scale(1.04);
+        }
+
+        .tableButtonOne {
+            width: 80px;
+            height: 28px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: #ffa728;
+            border: #ffa728;
+            border-radius: 6px;
+        }
+
+        .tableButtonTwo {
+            width: 80px;
+            height: 28px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: #109af9;
+            border: #109af9;
+            border-radius: 6px;
+        }
+    }
+}

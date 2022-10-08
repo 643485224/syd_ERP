@@ -1,0 +1,32 @@
+.content_button {
+    display: flex;
+
+    .buttonOne {
+        background: #1DD19B;
+        border-color: #1DD19B;
+    }
+
+    .buttonTwo {
+        background: #2400FF;
+        border-color: #2400FF;
+        margin-left: 200px;
+    }
+
+
+}
+
+// 表格根据状态文字展示不同颜色
+.spanChange {
+
+    // 未开始
+    .spanZZ {
+        color: #1DD19B;
+    }
+
+    // 进行中
+    .spanLZ {
+        color: #F05C27;
+    }
+
+
+}
